@@ -27,4 +27,6 @@ Route::get('/product/edit/{id}/{name}/',[ProductController::class,'edit'])->name
 
 Route::post('/product/edit/',[ProductController::class,'editSubmit'])->name('product/edit');
 
+Route::get('/product/delete/{id}/{name}/',[ProductController::class,'delete'])->name('product/delete');
+
 

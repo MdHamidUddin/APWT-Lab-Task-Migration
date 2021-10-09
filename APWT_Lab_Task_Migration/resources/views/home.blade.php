@@ -1,5 +1,7 @@
 @extends('layouts.app')
 @section('content')
-This is home page
-
+<h2>
+    <br>
+    Get Whatever You Want
+</h2>
 @endsection
