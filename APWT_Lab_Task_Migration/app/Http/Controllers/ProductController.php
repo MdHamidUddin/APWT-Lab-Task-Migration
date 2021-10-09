@@ -136,4 +136,11 @@ class ProductController extends Controller
         return redirect()->route('product/List');
 
     }
+
+    public function delete(Request $request){
+        $var = Product::where('ProductId',$request->id)->first();
+        $var->delete();
+        return redirect()->route('product/List');
+
+    }
 }
