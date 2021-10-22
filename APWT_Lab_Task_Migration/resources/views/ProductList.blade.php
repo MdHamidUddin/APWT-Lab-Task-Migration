@@ -27,8 +27,8 @@
                 <td>{{$item->StockDate}}</td>
                 <td>{{$item->Rating}}</td>
                 <td>{{$item->PurchasedDate}}</td>
-                <td><a href="/product/edit/{{$item->ProductId}}/{{$item->ProductName}}">Edit</a></td>
-                <td><a href="/product/delete/{{$item->ProductId}}/{{$item->ProductName}}">Delete</a></td>
+                <td><a class="btn btn-info btn-sm" href="/product/edit/{{$item->ProductId}}/{{$item->ProductName}}">Edit</a></td>
+                <td><a class="btn btn-danger btn-sm" href="/product/delete/{{$item->ProductId}}/{{$item->ProductName}}">Delete</a></td>
                   </tr>
         @endforeach
     </table>
