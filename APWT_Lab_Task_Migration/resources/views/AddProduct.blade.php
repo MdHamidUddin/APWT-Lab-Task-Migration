@@ -5,7 +5,7 @@
         {{csrf_field()}}
 
         
-        <div class="col-md-4 form-group">
+        <div class="form-group">
             <span>Product Id</span>
             <input type="text" name="id" value="{{old('id')}}"class="form-control">
             @error('id')
@@ -13,7 +13,7 @@
             @enderror
         </div>
         
-        <div class="col-md-4 form-group">
+        <div class="form-group">
             <span>Product Name</span>
             <input type="text" name="name" value="{{old('name')}}" class="form-control">
             @error('name')
@@ -21,7 +21,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Code</span>
             <input type="text" name="code" value="{{old('code')}}" class="form-control">
             @error('code')
@@ -29,7 +29,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Description</span>
             <input type="text" name="desc" value="{{old('desc')}}" class="form-control">
             @error('desc')
@@ -37,7 +37,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Category</span>
             <input type="text" name="cate" value="{{old('cate')}}" class="form-control">
             @error('cate')
@@ -45,7 +45,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Price</span>
             <input type="text" name="price" value="{{old('price')}}" class="form-control">
             @error('price')
@@ -53,7 +53,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Quantity</span>
             <input type="text" name="quantity" value="{{old('quantity')}}" class="form-control">
             @error('quantity')
@@ -61,7 +61,7 @@
             @enderror
             </div>
 
-        <div class="col-md-4 form-group">
+        <div class="form-group">
 
             <span>Stock Date</span>
             <input type="date" name="s_date" value="{{old('s_date')}}" class="form-control">
@@ -70,7 +70,7 @@
             @enderror
         </div>
 
-        <div class="col-md-4 form-group">
+        <div class="form-group">
             <span>Rating</span>
             <input type="text" name="rating" value="{{old('rating')}}" class="form-control">
             @error('rating')
@@ -79,7 +79,7 @@
             </div>
 
 
-        <div class="col-md-4 form-group">
+        <div class="form-group">
 
         <span>Purchased Date</span>
         <input type="date" name="p_date" value="{{old('p_date')}}" class="form-control">

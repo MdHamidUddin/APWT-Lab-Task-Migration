@@ -5,7 +5,7 @@
         {{csrf_field()}}
 
         
-        <div class="col-md-4 form-group">
+        <div class="form-group">
             <span>Product Id</span>
             <input type="text" name="id" value="{{$product->ProductId}}" class="form-control">
             @error('id')
@@ -13,7 +13,7 @@
             @enderror
         </div>
         
-        <div class="col-md-4 form-group">
+        <div class="form-group">
             <span>Product Name</span>
             <input type="text" name="name" value="{{$product->ProductName}}" class="form-control">
             @error('name')
@@ -21,7 +21,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Code</span>
             <input type="text" name="code" value="{{$product->ProductCode}}" class="form-control">
             @error('code')
@@ -29,7 +29,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Description</span>
             <input type="text" name="desc" value="{{$product->ProductDesc}}" class="form-control">
             @error('desc')
@@ -37,7 +37,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Category</span>
             <input type="text" name="cate" value="{{$product->Category}}" class="form-control">
             @error('cate')
@@ -45,7 +45,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Product Price</span>
             <input type="text" name="price" value="{{$product->Price}}" class="form-control">
             @error('price')
@@ -53,7 +53,7 @@
             @enderror
             </div>
 
-            <div class="col-md-4 form-group">
+            <div class="form-group">
             <span>Quantity</span>
             <input type="text" name="quantity" value="{{$product->Quantity}}" class="form-control">
             @error('quantity')
@@ -61,7 +61,7 @@
             @enderror
             </div>
 
-        <div class="col-md-4 form-group">
+        <div class="form-group">
 
             <span>Stock Date</span>
             <input type="date" name="s_date" value="{{$product->StockDate}}" class="form-control">
@@ -70,7 +70,7 @@
             @enderror
         </div>
 
-        <div class="col-md-4 form-group">
+        <div class="form-group">
             <span>Rating</span>
             <input type="text" name="rating" value="{{$product->Rating}}" class="form-control">
             @error('rating')
@@ -79,7 +79,7 @@
             </div>
 
 
-        <div class="col-md-4 form-group">
+        <div class="form-group">
 
         <span>Purchased Date</span>
         <input type="date" name="p_date" value="{{$product->PurchasedDate}}" class="form-control">
@@ -89,7 +89,7 @@
         </div>
 
         
-        <input type="submit" class="btn btn-success" value="Save" >
+        <input type="submit" class="btn btn-success btn-sm" value="Save" >
     </form>
 
     @endsection
